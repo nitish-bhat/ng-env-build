@@ -9,16 +9,16 @@ Maintain a single environment.ts file in the app and change the configuration in
 
 ## Example :
   
-     **All users :** 
-      npm run config -- --environment=prod --domainUrl=assets/_stub/allusers.data.json --isAdmin=false && ng serve
+      * All users 
+        npm run config -- --environment=prod --domainUrl=assets/_stub/allusers.data.json --isAdmin=false && ng serve
       
-     **Non-Admin users :** 
-      npm run config -- --environment=prod --domainUrl=assets/_stub/user.data.json --isAdmin=false && ng serve
+      * Non-Admin users  
+        npm run config -- --environment=prod --domainUrl=assets/_stub/user.data.json --isAdmin=false && ng serve
       
-     **Admin users :**
-      npm run config -- --environment=prod --domainUrl=assets/_stub/admin.data.json --isAdmin=true && ng serve
+      * Admin users 
+        npm run config -- --environment=prod --domainUrl=assets/_stub/admin.data.json --isAdmin=true && ng serve
       
-     ** For ng build in production :**
+      * For ng build in production
      
      npm run config -- --environment=prod --domainUrl=assets/_stub/admin.data.json --isAdmin=true && 
      ng build --target=production --    env=dev
