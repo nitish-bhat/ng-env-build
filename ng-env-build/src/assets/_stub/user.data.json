@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "name": "Vinay Kumar",
+            "id": 10,
+            "email": "vinay@mail.com"
+        },
+        {
+            "name": "Teresea Stalwart",
+            "id": 11,
+            "email": "teresa@mail.com"
+        },
+        {
+            "name": "Wayne Miller",
+            "id": 12,
+            "email": "wayne@mail.com"
+        },
+        {
+            "name": "Ben Miller",
+            "id": 14,
+            "email": "ben@mail.com"
+        },
+        {
+            "name": "Richard Stokes",
+            "id": 15,
+            "email": "richard@mail.com"
+        }
+    ]
+}

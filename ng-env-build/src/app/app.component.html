@@ -1,0 +1,34 @@
+<div style="text-align:center">
+  <h1>
+    NG-Environment-Build
+  </h1>
+</div>
+
+<div id="users-container">
+<table id="users">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Admin</th>
+    <th>SuperKey</th>
+  </tr>
+  <tr *ngFor="let user of users">
+    <td>
+      <span>{{user.id}}</span>
+    </td>
+    <td>
+      <span>{{user.name}}</span>
+    </td>
+    <td>
+      <span>{{user.email}}</span>
+    </td>
+    <td>
+      <span>{{user.isAdmin?"Yes":"No"}}</span>
+    </td>
+    <td>
+      <span>{{user.superKey?user.superKey:"No SuperKey"}}</span>
+    </td>
+  </tr>
+</table>
+</div>

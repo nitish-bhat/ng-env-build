@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+            "name": "Alex Dawson",
+            "id": 1,
+            "email": "alex@mail.com",
+            "isAdmin": true,
+            "superKey": "xlkaSbsnL0"
+        },
+        {
+            "name": "Johnson Wade",
+            "id": 2,
+            "email": "johnson@mail.com",
+            "isAdmin": true,
+            "superKey": "Mp4z8sWJkY"
+        },
+        {
+            "name": "Linda Carter",
+            "id": 3,
+            "email": "linda@mail.com",
+            "isAdmin": true,
+            "superKey": "9aQ9wRsJ9Y"
+        },
+        {
+            "name": "Paula McCarthy",
+            "id": 4,
+            "email": "paula@mail.com",
+            "isAdmin": true,
+            "superKey": "KDLsnZ0jgX"
+        },
+        {
+            "name": "Kiran Kumar",
+            "id": 5,
+            "email": "kiran@mail.com",
+            "isAdmin": true,
+            "superKey": "NKip5Sy4gr"
+        }
+    ]
+}
