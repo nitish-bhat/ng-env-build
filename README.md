@@ -1,6 +1,13 @@
 # ng-env-build
 Maintain a single environment.ts file in the app and change the configuration in environment.ts with build parameters using yargs
 
+## Dependencies 
+
+* Node.js
+* Angular Cli
+
+## Steps
+
 1. Clone the repository and navigate to ng-env-build folder. Run npm install to install all dependencies.
 
 2. The environment , domainUrl and isAdmin parameters are configurable. If the environment is development, the environment.ts file will not be updated.
